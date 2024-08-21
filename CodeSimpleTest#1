@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Dog Photo Collection App</title>
+    </head>
+<body>
+    <main>
+    <h1> Dog Photo Collection App Test1</h1>
+    <section>
+    <h2> Dog Photos</h2>
+  <p>See more <a target="_blank" href="https://www.pexels.com/search/dog" >dogs photos </a>in our pixel gallery</p>
+  <a href="https://www.pexels.com/search/dog"><img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="there are 2 cute dogs"></a>
+
+</section>
+<section>
+    <h2>Dog lists</h2>
+    <h3>Things dogs love</h3>
+    <ul>
+        <li>Going for a walk</li>
+        <li>Playing with softball</li>
+        <li>Sleeping near you</li>
+        <li>Getting treats</li>
+    </ul>
+    <figure>
+<img src="https://cdn.shopify.com/s/files/1/0255/3859/2867/files/9_517f3db5-7b1f-42ba-8b2e-4b6edd895567_480x480.png?v=1635880635" alt="dog love treats">
+<figcaption>Dogs <em>love</em> food</figcaption>
+ </figure>
+ <h3> Top 4 things dogs hate:</h3>
+<ol>
+    <li>Getting bath</li>
+    <li>being left alone and ignored</li>
+    <li>Strong fragrances</li>
+    <li>Going to vets</li>
+</ol>
+<figure>
+ <img src="https://iheartdogs.com/wp-content/uploads/2016/04/shutterstock_53488045.jpg" alt="sad dog">
+<figcaption>Dogs <strong>hate</strong> going to <strong>doctors</strong></figcaption>
+</figure>
+</section>
+<section>
+   <h2>Dog Form</h2> 
+   <form action="https://www.pexels.com/search/dog/"> 
+<fieldset>
+    <legend> How many dog do you have?</legend>
+    <input type="text" name="numberofdog" placeholder="#number of dogs required" required>
+</fieldset>
+<fieldset>
+    <legend> What kind of breed is your dog?</legend>
+    <input type="text" name="breedtype" placeholder="breed type required" required>
+</fieldset>
+    <fieldset>
+    <legend> Is your dog friendly or agressive </legend>
+    <label><input id="friendly" value="friendly" type="radio" checked name="friendly-agressive"> friendly</label>
+    <label> <input id="agressive" value="agressive" type="radio" name="friendly-agressive"> agressive</label>
+    </fieldset>
+    <fieldset>
+        <legend> What's your dog favourite activity?</legend>
+        <input type="checkbox" checked id="Hide and Seek" name="activity" value="Hide and Seek"><label for="hide and seek">Hide and Seek</label>
+        <input type="checkbox" id="Fetch" name="activity" value="Fetch"><label for="Fetch">Fetch</label>
+        <input type="checkbox" id="Swimming" name="activity" value="Swimming"><label for="Swimming">Swimming</label>
+        <input type="checkbox" id="Day trips" name="activity" value="Day trips"><label for="Day trips">Day trips</label>
+    </fieldset>
+<fieldset>
+        <legend>What's your dog personality?</legend>
+        <input type="radio" checked id="loving" name="personality" value="loving"><label for="loving">Loving</label>
+        <input type="radio" id="lazy" name="personality" value="lazy"><label for="lazy">Lazy</label>
+        <input type="radio" id="energetic" name="personality" value="energetic"><label for="energetic">Energetic</label>
+        <input type="radio" id="fearless" name="personality" value="fearless"><label for="fearless">Fearless</label>
+</fieldset>
+
+    <input type="text" name="dogphotourl" placeholder="dog photo URL required" required>
+    <button type="submit">Submit</button>
+   </form>
+</section>
+</main>
+<footer>
+    <p>Copyright - <a href="https://www.pexels.com/search/dog/">dogphotocollection.com</a></p>
+</footer>
+</body>
+</html>
